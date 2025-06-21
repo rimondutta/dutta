@@ -16,10 +16,10 @@ import { useStore } from '@src/store';
 import { useWindowSize } from '@darkroom.engineering/hamo';
 
 const seo = {
-  title: 'Rimon - Projects',
-  description: 'Explore the portfolio of Rimon Dutta — a MERN stack developer, mobile app creator, and SEO expert. Showcasing modern web projects, creative UI/UX, and innovative Three.js + React Three Fiber experiments.',
+  title: 'Giats - Projects',
+  description: 'Explore my portfolio to see a range of frontend projects, from responsive websites to web applications. Discover my work with React, Nextjs, React three fiber, Electron and more.',
   keywords: [
-    'Rimon Projects',
+    'Giats Projects',
     'Portfolio Showcase',
     'Frontend Development Examples',
     'Web Design Portfolio',
@@ -32,7 +32,7 @@ const seo = {
     'React Three Fiber Projects',
     'Electron Projects',
     'Professional Web Development',
-    'Rimon Dutta Projects',
+    'Evangelos Giatsidis Projects',
   ],
 };
 
