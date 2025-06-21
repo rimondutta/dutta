@@ -230,9 +230,7 @@ function Home() {
         </div>
         {!isMobile && (
           <h6 className={clsx('h6', styles.rightContainer)}>
-            Driven by curiosity and creativity, I turn ideas into interactive digital products.
-As a full-stack developer with a strong grip on SEO, I blend code with strategy for real-world impact.
-I’m now exploring data engineering to deepen my understanding of data-driven systems.
+            With years of experience, I create immersive digital environments that elevate your virtual presence. Join me in redefining digital interaction.
           </h6>
         )}
       </div>
