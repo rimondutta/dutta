@@ -42,7 +42,7 @@ function Overview() {
       <div className={styles.desc}>
         {!isMobile ? (
           <AppearTitle key="desktop-overview">
-            <h6 className="h6">Hey there! I&apos;m a 26-year-old front-end developer from Greece with a </h6>
+            <h6 className="h6">Hey there! I&apos;m a 23-year-old seo specialist and full stack engineer from Bangladesh with a </h6>
             <h6 className="h6">passion for crafting amazing digital experiences. I studied software</h6>
             <h6 className="h6">engineering to deepen my understanding of how to build sleek and </h6>
             <h6 className="h6">efficient websites and apps.</h6>
@@ -53,11 +53,11 @@ function Overview() {
             <h6 className="h6">rowing, and playing intense PC games to relax and recharge.</h6>
 
             <h6 className={clsx(styles.paddingTop, 'h6')}>I&apos;m looking forward to collaborating and creating something great!</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>Evangelos Giatsidis.</h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>Rimon Dutta.</h6>
           </AppearTitle>
         ) : (
           <AppearTitle key="mobile-overview">
-            <h6 className="h6">Hey there! I&apos;m a 26-year-old front-end developer from Greece </h6>
+            <h6 className="h6">Hey there! I&apos;m a 23-year-old seo specialist and full stack engineer from Bangladesh </h6>
             <h6 className="h6">with a passion for crafting amazing digital experiences. I studied </h6>
             <h6 className="h6">software engineering to deepen my understanding of how to </h6>
             <h6 className="h6">build sleek and efficient websites and apps.</h6>
