@@ -68,11 +68,12 @@ function About() {
         <div className={clsx(styles.descWrapperBottom)}>
           {!isMobile ? (
             <AppearTitle key="desktop-descWrapperBottom">
-              <h6 className="h6">A passionate front-end developer hailing from Greece.</h6>
-              <h6 className="h6">With a strong eye for design and a dedication to</h6>
-              <h6 className="h6">creating seamless user experiences. I specialize in</h6>
-              <h6 className="h6">bringing web applications to life with clean and efficient</h6>
-              <h6 className="h6">code.</h6>
+              <h6 className="h6">I am a dedicated full-stack developer specializing in the MERN stack,</h6>
+              <h6 className="h6">mobile app development, SEO, and digital marketing. With a strong </h6>
+              <h6 className="h6">focus on writing clean, efficient code, I strive to build user-friendly and</h6>
+              <h6 className="h6">impactful web applications. I enjoy combining technical expertise with</h6>
+              <h6 className="h6">creativity to deliver solutions that not only work seamlessly but also</h6>
+              <h6 className="h6">technologies is my passion, helping me stay ahead in the fast-evolving tech world.</h6>
             </AppearTitle>
           ) : (
             <AppearTitle key="mobile-descWrapperBottom">
