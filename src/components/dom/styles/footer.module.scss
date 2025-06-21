@@ -109,9 +109,9 @@
       /* show by default */
     }
     .link:hover path {
-      // stroke-dashoffset: 0;
-      // transition-timing-function: cubic-bezier(0.8, 1, 0.7, 1);
-      // transition-duration: 0.3s;
+      stroke-dashoffset: 0;
+      transition-timing-function: cubic-bezier(0.8, 1, 0.7, 1);
+      transition-duration: 0.3s;
     }
     .link:hover .linkGraphic {
       transform: translate3d(-65.5%, 0, 0);
@@ -147,7 +147,7 @@
     color: var(--white);
   }
 
-  .giats {
+  .rimon {
     @include mobile {
       grid-column: 1 / 6;
       font-size: 22.2vw;
