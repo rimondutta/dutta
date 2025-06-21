@@ -68,19 +68,21 @@ function About() {
         <div className={clsx(styles.descWrapperBottom)}>
           {!isMobile ? (
             <AppearTitle key="desktop-descWrapperBottom">
-              <h6 className="h6">I am a dedicated full-stack developer specializing in the MERN stack, mobile app development, SEO, and digital marketing. With a strong focus on writing clean, efficient code, I strive to build user-friendly and impactful web applications. I enjoy combining technical expertise with creativity to deliver solutions that not only work seamlessly but also drive meaningful results. Constant learning and adapting to new technologies is my passion, helping me stay ahead in the fast-evolving tech world.</h6>
-              {/* <h6 className="h6">mobile app development, SEO, and digital marketing. With a strong </h6>
+              <h6 className="h6">I am a dedicated full-stack developer specializing in the MERN stack,</h6>
+              <h6 className="h6">mobile app development, SEO, and digital marketing. With a strong </h6>
               <h6 className="h6">focus on writing clean, efficient code, I strive to build user-friendly and</h6>
               <h6 className="h6">impactful web applications. I enjoy combining technical expertise with</h6>
               <h6 className="h6">creativity to deliver solutions that not only work seamlessly but also</h6>
-              <h6 className="h6">technologies is my passion, helping me stay ahead in the fast-evolving tech world.</h6> */}
+              <h6 className="h6">technologies is my passion, helping me stay ahead in the fast-evolving tech world.</h6>
             </AppearTitle>
           ) : (
             <AppearTitle key="mobile-descWrapperBottom">
-              <h6 className="h6"> A passionate front-end developer hailing from Greece. With a</h6>
-              <h6 className="h6">strong eye for design and a dedication to creating seamless</h6>
-              <h6 className="h6">user experiences. I specialize in bringing web applications to life</h6>
-              <h6 className="h6">with clean and efficient code.</h6>
+               <h6 className="h6">I am a dedicated full-stack developer specializing in the MERN stack,</h6>
+              <h6 className="h6">mobile app development, SEO, and digital marketing. With a strong </h6>
+              <h6 className="h6">focus on writing clean, efficient code, I strive to build user-friendly and</h6>
+              <h6 className="h6">impactful web applications. I enjoy combining technical expertise with</h6>
+              <h6 className="h6">creativity to deliver solutions that not only work seamlessly but also</h6>
+              <h6 className="h6">technologies is my passion, helping me stay ahead in the fast-evolving tech world.</h6>
             </AppearTitle>
           )}
           <div className={clsx(styles.buttonContainer)}>
