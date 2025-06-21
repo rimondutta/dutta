@@ -110,7 +110,7 @@ function Footer() {
 
       <div className={styles.middleContainer} style={{ gridColumn: '1 / 9' }}>
         <AppearTitle isFooter>
-          <div className="p-x">Based in Thessaloniki, Greece</div>
+          <div className="p-x">Kotowali, Chattogram, Bangladesh</div>
           <div className={clsx('p-x', styles.middleText)}>
             Current Time: <Time />
           </div>
@@ -125,7 +125,7 @@ function Footer() {
       </div>
       <div className={styles.middleContainer} style={{ gridColumn: '13 / 17', textAlign: isMobile ? 'left' : 'right' }}>
         <AppearTitle isFooter>
-          <div className="p-x">© 2025 · Evangelos Giatsidis</div>
+          <div className="p-x">© 2025 · Rimon Dutta</div>
           <div className={clsx('p-x', styles.middleText)}>All Rights Reserved</div>
         </AppearTitle>
       </div>
