@@ -130,8 +130,8 @@ function Footer() {
         </AppearTitle>
       </div>
 
-      <div className={styles.giats}>
-        <span>Rimon</span>
+      <div className={styles.rimon}>
+        <span>RIMON</span>
       </div>
       <div className={styles.goToTop}>
         <GoTop />
