@@ -97,14 +97,10 @@ function Clients() {
               <h4 className={clsx('h4', 'bold', styles.title)}>Organic Food</h4>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
-              <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
-              <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
-              <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
-              <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
-              <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
-              <div className="p-l">dolor in reprehenderit in voluptate velit</div>
-              <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
+              <div className="p-l">Improved website visibility through on-page, off-page,</div>
+              <div className="p-l">and technical SEO. Led keyword strategy, optimized</div>
+              <div className="p-l">site structure, and built high-quality backlinks. Delivered </div>
+              <div className="p-l">measurable growth in search rankings and traffic. </div>
             </AppearTitle>
           </div>
         </>
