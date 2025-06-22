@@ -147,7 +147,7 @@ function Clients() {
             className={styles.secondText}
           >
             <AppearTitle>
-              <h6 className="h6">2023</h6>
+              <h6 className="h6">2024</h6>
             </AppearTitle>
             <AppearTitle>
               <h4 className={clsx('h4', 'bold', styles.title)}>Isbx</h4>
@@ -167,7 +167,7 @@ function Clients() {
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>2021</AppearTitle>
+          <AppearTitle>Present</AppearTitle>
         </div>
       ) : null}
       <div
@@ -182,17 +182,17 @@ function Clients() {
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>Company 3</h4>
+            <h4 className={clsx('h4', 'bold')}>Quirktix</h4>
+            <span>Founder, SEO Specialist And Full Stack Engineer</span>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
-            <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
-            <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
-            <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
-            <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
-            <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
-            <div className="p-l">dolor in reprehenderit in voluptate velit</div>
-            <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
+            <div className="p-l">Launched and lead a digital agency specializing</div>
+            <div className="p-l">in AI development, SEO, and full-stack web solutions.</div>
+            <div className="p-l">Oversaw end-to-end project delivery, from strategy</div>
+            <div className="p-l">to deployment. Built intelligent web apps and automation </div>
+            <div className="p-l">tools using React, Node.js, Python, and OpenAI and scaled</div>
+            <div className="p-l">organic traffic and ROI through advanced SEO tactics </div>
+            <div className="p-l">AI-driven content strategies.</div>
           </AppearTitle>
         </div>
       ) : null}
@@ -206,20 +206,20 @@ function Clients() {
             className={styles.thirdText}
           >
             <AppearTitle>
-              <h6 className="h6">2021</h6>
+              <h6 className="h6">Present</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>Company 3</h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>Quirktix</h4>
+              <span>Founder, SEO Specialist And Full Stack Engineer</span>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
-              <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
-              <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
-              <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
-              <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
-              <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
-              <div className="p-l">dolor in reprehenderit in voluptate velit</div>
-              <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
+              <div className="p-l">Launched and lead a digital agency specializing</div>
+              <div className="p-l">in AI development, SEO, and full-stack web solutions.</div>
+              <div className="p-l">Oversaw end-to-end project delivery, from strategy</div>
+              <div className="p-l">to deployment. Built intelligent web apps and automation</div>
+              <div className="p-l">tools using React, Node.js, Python, and OpenAI and scaled</div>
+              <div className="p-l">organic traffic and ROI through advanced SEO  and tactics</div>
+              <div className="p-l">AI-driven content strategies.</div>
             </AppearTitle>
           </div>
         </>
