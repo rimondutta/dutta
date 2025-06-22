@@ -72,6 +72,7 @@ function Clients() {
         <div className={styles.textMobile}>
           <AppearTitle>
             <h4 className={clsx('h4', 'bold')}>Organic Food</h4>
+            <span>SEO Specialist</span>
           </AppearTitle>
           <AppearTitle>
             <div className="p-l">Improved website visibility through on-page, off-page,</div>
