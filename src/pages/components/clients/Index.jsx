@@ -56,7 +56,7 @@ function Clients() {
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>2024</AppearTitle>
+          <AppearTitle>2023</AppearTitle>
         </div>
       ) : null}
       <div
@@ -71,17 +71,13 @@ function Clients() {
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>Company 1</h4>
+            <h4 className={clsx('h4', 'bold')}>Organic Food</h4>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
-            <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
-            <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
-            <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
-            <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
-            <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
-            <div className="p-l">dolor in reprehenderit in voluptate velit</div>
-            <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
+            <div className="p-l">Improved website visibility through on-page, off-page,</div>
+            <div className="p-l">and technical SEO. Led keyword strategy, optimized</div>
+            <div className="p-l">site structure, and built high-quality backlinks. Delivered </div>
+            <div className="p-l">measurable growth in search rankings and traffic. </div>
           </AppearTitle>
         </div>
       ) : null}
@@ -98,17 +94,13 @@ function Clients() {
               <h6 className="h6">2024</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>Company 1</h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>Organic Food</h4>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
-              <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
-              <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
-              <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
-              <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
-              <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
-              <div className="p-l">dolor in reprehenderit in voluptate velit</div>
-              <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
+            <div className="p-l">Improved website visibility through on-page, off-page,</div>
+            <div className="p-l">and technical SEO. Led keyword strategy, optimized</div>
+            <div className="p-l">site structure, and built high-quality backlinks. Delivered </div>
+            <div className="p-l">measurable growth in search rankings and traffic. </div>
             </AppearTitle>
           </div>
         </>
