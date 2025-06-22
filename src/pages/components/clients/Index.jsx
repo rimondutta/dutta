@@ -213,13 +213,14 @@ function Clients() {
               <span>Founder, SEO Specialist And Full Stack Engineer</span>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l">Launched and lead a digital agency specializing</div>
-              <div className="p-l">in AI development, SEO, and full-stack web solutions.</div>
-              <div className="p-l">Oversaw end-to-end project delivery, from strategy</div>
-              <div className="p-l">to deployment. Built intelligent web apps and automation</div>
-              <div className="p-l">tools using React, Node.js, Python, and OpenAI and scaled</div>
-              <div className="p-l">organic traffic and ROI through advanced SEO  and tactics</div>
-              <div className="p-l">AI-driven content strategies.</div>
+              <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
+              <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
+              <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
+              <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
+              <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
+              <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
+              <div className="p-l">dolor in reprehenderit in voluptate velit</div>
+              <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
             </AppearTitle>
           </div>
         </>
