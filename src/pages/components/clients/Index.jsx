@@ -7,8 +7,7 @@ import styles from '@src/pages/components/clients/styles/clients.module.scss';
 import useIsMobile from '@src/hooks/useIsMobile';
 import { useIsomorphicLayoutEffect } from '@src/hooks/useIsomorphicLayoutEffect';
 import { useRef } from 'react';
-import { useWindowSize } from '@darkroom.engineering/hamo';
-import Link from 'next/link';
+import { useWindowSize } from '@darkroom.engineering/hamo'; 
 
 function Clients() {
   const isMobile = useIsMobile();
@@ -151,9 +150,7 @@ function Clients() {
               <h6 className="h6">2023</h6>
             </AppearTitle>
             <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>
-    <Link href="https://example.com" target="_blank" rel="noopener noreferrer">Isbx</Link>
-  </h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>SEO specialist</h4>
               <span>SEO specialist</span>
             </AppearTitle>
             <AppearTitle>
