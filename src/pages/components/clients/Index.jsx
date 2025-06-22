@@ -7,7 +7,7 @@ import styles from '@src/pages/components/clients/styles/clients.module.scss';
 import useIsMobile from '@src/hooks/useIsMobile';
 import { useIsomorphicLayoutEffect } from '@src/hooks/useIsomorphicLayoutEffect';
 import { useRef } from 'react';
-import { useWindowSize } from '@darkroom.engineering/hamo'; 
+import { useWindowSize } from '@darkroom.engineering/hamo';
 
 function Clients() {
   const isMobile = useIsMobile();
@@ -126,7 +126,7 @@ function Clients() {
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>Isbx</h4>
+            <h4 className={clsx('h4', 'bold')}>SEO specialist</h4>
             <span>SEO specialist</span>
           </AppearTitle>
           <AppearTitle>
