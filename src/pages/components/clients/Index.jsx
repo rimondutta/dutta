@@ -96,9 +96,8 @@ function Clients() {
               <h6 className="h6">2024</h6>
             </AppearTitle>
             <AppearTitle>
-            <Link href="https://example.com" target="_blank" rel="noopener noreferrer">
-  <h4 className={clsx('h4', 'bold')}>Isbx</h4>
-</Link>
+            <Link href="https://dutta.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <h4 className={clsx('h4', 'bold')}>Isbx</h4></Link>
               <span>SEO Specialist</span>
             </AppearTitle>
             <AppearTitle>
