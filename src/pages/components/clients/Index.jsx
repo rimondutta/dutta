@@ -8,6 +8,7 @@ import useIsMobile from '@src/hooks/useIsMobile';
 import { useIsomorphicLayoutEffect } from '@src/hooks/useIsomorphicLayoutEffect';
 import { useRef } from 'react';
 import { useWindowSize } from '@darkroom.engineering/hamo';
+import link from 'next/link';
 
 function Clients() {
   const isMobile = useIsMobile();
@@ -95,7 +96,9 @@ function Clients() {
               <h6 className="h6">2024</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>Organic Food</h4>
+            <Link href="https://example.com" target="_blank" rel="noopener noreferrer">
+  <h4 className={clsx('h4', 'bold')}>Isbx</h4>
+</Link>
               <span>SEO Specialist</span>
             </AppearTitle>
             <AppearTitle>
