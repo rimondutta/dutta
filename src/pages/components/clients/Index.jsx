@@ -126,10 +126,7 @@ function Clients() {
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-          <h4 className={clsx('h4', 'bold')}>
-  <a href="https://example.com" target="_blank" rel="noopener noreferrer">Isbx</a>
-</h4>
-
+            <h4 className={clsx('h4', 'bold')}>Isbx</h4>
             <span>SEO specialist</span>
           </AppearTitle>
           <AppearTitle>
