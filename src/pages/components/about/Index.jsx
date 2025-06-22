@@ -77,7 +77,7 @@ function About() {
             </AppearTitle>
           ) : (
             <AppearTitle key="mobile-descWrapperBottom">
-              <h6 className="h6">’m a full-stack developer skilled in MERN</h6>
+              <h6 className="h6">I’m a full-stack developer skilled in MERN</h6>
               <h6 className="h6">mobile apps, SEO, and digital marketing. </h6>
               <h6 className="h6">I focus on clean code and creating effective, user-friendly</h6>
               <h6 className="h6">web solutions.</h6>
