@@ -126,7 +126,7 @@ function Clients() {
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>SEO specialist</h4>
+            <h4 className={clsx('h4', 'bold')}>Isbx</h4>
             <span>SEO specialist</span>
           </AppearTitle>
           <AppearTitle>
@@ -150,18 +150,15 @@ function Clients() {
               <h6 className="h6">2023</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>SEO specialist</h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>Isbx</h4>
               <span>SEO specialist</span>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
-              <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
-              <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
-              <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
-              <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
-              <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
-              <div className="p-l">dolor in reprehenderit in voluptate velit</div>
-              <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
+              <div className="p-l">Planned and executed SEO strategies to boost</div>
+              <div className="p-l">organic traffic and rankings. Performed </div>
+              <div className="p-l">keyword research, technical audits, and</div>
+              <div className="p-l">content optimization. Used tools like Google Analytics,</div>
+              <div className="p-l">SEMrush, and Ahrefs to track and improve performance.</div>
             </AppearTitle>
           </div>
           <div className={styles.fourthEmpty} />
