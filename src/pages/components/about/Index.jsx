@@ -77,10 +77,10 @@ function About() {
             </AppearTitle>
           ) : (
             <AppearTitle key="mobile-descWrapperBottom">
-              <h6 className="h6"> A passionate front-end developer hailing from Greece. With a</h6>
-              <h6 className="h6">strong eye for design and a dedication to creating seamless</h6>
-              <h6 className="h6">user experiences. I specialize in bringing web applications to life</h6>
-              <h6 className="h6">with clean and efficient code.</h6>
+              <h6 className="h6">’m a full-stack developer skilled in MERN</h6>
+              <h6 className="h6">mobile apps, SEO, and digital marketing. </h6>
+              <h6 className="h6">I focus on clean code and creating effective, user-friendly</h6>
+              <h6 className="h6">web solutions.</h6>
             </AppearTitle>
           )}
           <div className={clsx(styles.buttonContainer)}>
