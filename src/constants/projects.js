@@ -221,12 +221,12 @@ const projects = [
   },
   {
     id: 'project1',
-    title: 'Project1',
+    title: 'E-Commerce Store',
     img: '/project1/project1.webp',
     link: '/projects/project1',
     date: '2024',
     company: 'Company 4',
-    livelink: undefined,
+    livelink: 'https://github.com/rimondutta/',
     primary: '#000000',
     accentColor: '#f0f4f1',
     secondary: '#F9F9F9',
@@ -282,7 +282,7 @@ const projects = [
       },
     ],
     desc: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'A fully functional e-commerce platform allowing users to browse products, add items to cart, and securely check out. Admins can manage products, categories, and view sales analytics via a dedicated dashboard.',
       'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     ],
   },
