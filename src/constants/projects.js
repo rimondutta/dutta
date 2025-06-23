@@ -282,8 +282,14 @@ const projects = [
       },
     ],
     desc: [
+      'Tech Stack: MERN Stack + Stripe API + Cloudinary',
       'A fully functional e-commerce platform allowing users to browse products, add items to cart, and securely check out. Admins can manage products, categories, and view sales analytics via a dedicated dashboard.',
-      'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'Features:',
+      'Product listing with search & filter',
+      'User signup/login and order history',
+      'Admin product & order management',
+      'Payment integration with Stripe',
+      'Image upload via Cloudinary',
     ],
   },
   {
