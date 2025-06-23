@@ -1,6 +1,5 @@
 import { useFrame } from '@darkroom.engineering/hamo';
 import { useMemo } from 'react';
-import _Stats from 'stats.js';
 import { useIsomorphicLayoutEffect } from '@src/hooks/useIsomorphicLayoutEffect';
 
 function Stats() {
