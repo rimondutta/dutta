@@ -226,7 +226,7 @@ const projects = [
     link: '/projects/project1',
     date: '2024',
     company: 'Company 4',
-    livelink: 'https://github.com/rimondutta/',
+    liveLink: 'https://www.github.com/rimondutta/',
     primary: '#000000',
     accentColor: '#f0f4f1',
     secondary: '#F9F9F9',
