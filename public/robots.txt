@@ -2,5 +2,8 @@
 User-agent: *
 Allow: /
 
+# Host
+Host: https://rimon-dutta.vercel.app/
+
 # Sitemaps
 Sitemap: https://rimon-dutta.vercel.app/sitemap.xml
