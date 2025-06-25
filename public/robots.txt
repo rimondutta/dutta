@@ -2,8 +2,5 @@
 User-agent: *
 Allow: /
 
-# Host
-Host: https://giats.me/
-
 # Sitemaps
-Sitemap: https://giats.me/sitemap.xml
+Sitemap: https://rimon-dutta.vercel.app/sitemap.xml
