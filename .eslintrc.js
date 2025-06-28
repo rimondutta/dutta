@@ -1,5 +1,13 @@
 module.exports = {
-  extends: ['airbnb', 'airbnb/hooks', 'next/core-web-vitals', 'plugin:react/recommended', 'eslint-config-prettier', 'plugin:jsx-a11y/recommended', 'plugin:@react-three/recommended'],
+  extends: [
+    'airbnb',
+    'airbnb/hooks',
+    'next/core-web-vitals',
+    'plugin:react/recommended',
+    'eslint-config-prettier',
+    'plugin:jsx-a11y/recommended',
+    'plugin:@react-three/recommended',
+  ],
   plugins: ['eslint-plugin-prettier', 'react', 'jsx-a11y', '@react-three'],
   rules: {
     'react/prop-types': 'off',

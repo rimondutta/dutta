@@ -42,7 +42,13 @@ function About() {
 
   const renderImageContainer = () => (
     <div className={styles.imageContainer}>
-      <Image priority src="/rimon/front.webp" sizes="100%" fill alt="Rimon Dutta" />
+      <Image
+        priority
+        src="/rimon/front.webp"
+        sizes="100%"
+        fill
+        alt="Rimon Dutta"
+      />
     </div>
   );
 
@@ -59,27 +65,52 @@ function About() {
         {isMobile ? renderImageContainer() : null}
         <div className={clsx(styles.descWrapper)} ref={animatedImageRef}>
           <AppearTitle>
-            <div className="p-l">“Skilled full-stack developer with expertise in MERN</div>
+            <div className="p-l">
+              “Skilled full-stack developer with expertise in MERN
+            </div>
             <div className="p-l">mobile apps, SEO, and digital marketing.</div>
-            <div className="p-l">I create efficient code and impactful, user-focused web solutions.”</div>
+            <div className="p-l">
+              I create efficient code and impactful, user-focused web
+              solutions.”
+            </div>
           </AppearTitle>
         </div>
         {!isMobile ? renderImageContainer() : null}
         <div className={clsx(styles.descWrapperBottom)}>
           {!isMobile ? (
             <AppearTitle key="desktop-descWrapperBottom">
-              <h6 className="h6">I am a dedicated full-stack developer specializing in the MERN stack,</h6>
-              <h6 className="h6">mobile app development, SEO, and digital marketing. With a strong </h6>
-              <h6 className="h6">focus on writing clean, efficient code, I strive to build user-friendly and</h6>
-              <h6 className="h6">impactful web applications. I enjoy combining technical expertise with</h6>
-              <h6 className="h6">creativity to deliver solutions that not only work seamlessly but also</h6>
-              <h6 className="h6">technologies is my passion, helping me stay ahead in the fast-evolving tech world.</h6>
+              <h6 className="h6">
+                I am a dedicated full-stack developer specializing in the MERN
+                stack,
+              </h6>
+              <h6 className="h6">
+                mobile app development, SEO, and digital marketing. With a
+                strong{' '}
+              </h6>
+              <h6 className="h6">
+                focus on writing clean, efficient code, I strive to build
+                user-friendly and
+              </h6>
+              <h6 className="h6">
+                impactful web applications. I enjoy combining technical
+                expertise with
+              </h6>
+              <h6 className="h6">
+                creativity to deliver solutions that not only work seamlessly
+                but also
+              </h6>
+              <h6 className="h6">
+                technologies is my passion, helping me stay ahead in the
+                fast-evolving tech world.
+              </h6>
             </AppearTitle>
           ) : (
             <AppearTitle key="mobile-descWrapperBottom">
               <h6 className="h6">I’m a full-stack developer skilled in MERN</h6>
               <h6 className="h6">mobile apps, SEO, and digital marketing. </h6>
-              <h6 className="h6">I focus on clean code and creating effective, user-friendly</h6>
+              <h6 className="h6">
+                I focus on clean code and creating effective, user-friendly
+              </h6>
               <h6 className="h6">web solutions.</h6>
             </AppearTitle>
           )}

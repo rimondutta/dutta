@@ -25,8 +25,14 @@ function Clients() {
             .timeline({
               scrollTrigger: {
                 trigger: rootRef.current,
-                start: index === 0 ? `top-=${vw(35)}` : `top+=${vw(35 + 5.5555556 * index)}`,
-                end: index === 0 ? `bottom-=${vw(35 + 5.5555556 * index)}` : `bottom+=${vw(25)}`,
+                start:
+                  index === 0
+                    ? `top-=${vw(35)}`
+                    : `top+=${vw(35 + 5.5555556 * index)}`,
+                end:
+                  index === 0
+                    ? `bottom-=${vw(35 + 5.5555556 * index)}`
+                    : `bottom+=${vw(25)}`,
                 toggleActions: 'play none reverse none',
                 scrub: true,
                 scroller: document?.querySelector('main'),
@@ -75,10 +81,18 @@ function Clients() {
             <span>SEO Specialist</span>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l">Improved website visibility through on-page, off-page,</div>
-            <div className="p-l">and technical SEO. Led keyword strategy, optimized</div>
-            <div className="p-l">site structure, and built high-quality backlinks. Delivered </div>
-            <div className="p-l">measurable growth in search rankings and traffic. </div>
+            <div className="p-l">
+              Improved website visibility through on-page, off-page,
+            </div>
+            <div className="p-l">
+              and technical SEO. Led keyword strategy, optimized
+            </div>
+            <div className="p-l">
+              site structure, and built high-quality backlinks. Delivered{' '}
+            </div>
+            <div className="p-l">
+              measurable growth in search rankings and traffic.{' '}
+            </div>
           </AppearTitle>
         </div>
       ) : null}
@@ -99,10 +113,18 @@ function Clients() {
               <span>SEO Specialist</span>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l">Improved website visibility through on-page, off-page,</div>
-              <div className="p-l">and technical SEO. Led keyword strategy, optimized</div>
-              <div className="p-l">site structure, and built high-quality backlinks. Delivered </div>
-              <div className="p-l">measurable growth in search rankings and traffic. </div>
+              <div className="p-l">
+                Improved website visibility through on-page, off-page,
+              </div>
+              <div className="p-l">
+                and technical SEO. Led keyword strategy, optimized
+              </div>
+              <div className="p-l">
+                site structure, and built high-quality backlinks. Delivered{' '}
+              </div>
+              <div className="p-l">
+                measurable growth in search rankings and traffic.{' '}
+              </div>
             </AppearTitle>
           </div>
         </>
@@ -130,11 +152,17 @@ function Clients() {
             <span>SEO specialist</span>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l">Planned and executed SEO strategies to boost</div>
+            <div className="p-l">
+              Planned and executed SEO strategies to boost
+            </div>
             <div className="p-l">organic traffic and rankings. Performed </div>
             <div className="p-l">keyword research, technical audits, and</div>
-            <div className="p-l">content optimization. Used tools like Google Analytics</div>
-            <div className="p-l">SEMrush, and Ahrefs to track and improve performance.</div>
+            <div className="p-l">
+              content optimization. Used tools like Google Analytics
+            </div>
+            <div className="p-l">
+              SEMrush, and Ahrefs to track and improve performance.
+            </div>
           </AppearTitle>
         </div>
       ) : null}
@@ -154,11 +182,19 @@ function Clients() {
               <span>SEO specialist</span>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l">Planned and executed SEO strategies to boost</div>
-              <div className="p-l">organic traffic and rankings. Performed </div>
+              <div className="p-l">
+                Planned and executed SEO strategies to boost
+              </div>
+              <div className="p-l">
+                organic traffic and rankings. Performed{' '}
+              </div>
               <div className="p-l">keyword research, technical audits, and</div>
-              <div className="p-l">content optimization. Used tools like Google Analytics,</div>
-              <div className="p-l">SEMrush, and Ahrefs to track and improve performance.</div>
+              <div className="p-l">
+                content optimization. Used tools like Google Analytics,
+              </div>
+              <div className="p-l">
+                SEMrush, and Ahrefs to track and improve performance.
+              </div>
             </AppearTitle>
           </div>
           <div className={styles.fourthEmpty} />
@@ -186,12 +222,24 @@ function Clients() {
             <span>Founder, SEO Specialist And Full Stack Engineer</span>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l">Launched and lead a digital agency specializing</div>
-            <div className="p-l">in AI development, SEO, and full-stack web solutions.</div>
-            <div className="p-l">Oversaw end-to-end project delivery, from strategy</div>
-            <div className="p-l">to deployment. Built intelligent web apps and automation </div>
-            <div className="p-l">tools using React, Node.js, Python, and OpenAI and scaled</div>
-            <div className="p-l">organic traffic and ROI through advanced SEO tactics </div>
+            <div className="p-l">
+              Launched and lead a digital agency specializing
+            </div>
+            <div className="p-l">
+              in AI development, SEO, and full-stack web solutions.
+            </div>
+            <div className="p-l">
+              Oversaw end-to-end project delivery, from strategy
+            </div>
+            <div className="p-l">
+              to deployment. Built intelligent web apps and automation{' '}
+            </div>
+            <div className="p-l">
+              tools using React, Node.js, Python, and OpenAI and scaled
+            </div>
+            <div className="p-l">
+              organic traffic and ROI through advanced SEO tactics{' '}
+            </div>
             <div className="p-l">AI-driven content strategies.</div>
           </AppearTitle>
         </div>
@@ -213,12 +261,24 @@ function Clients() {
               <span>Founder, SEO Specialist And Full Stack Engineer</span>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l">Launched and lead a digital agency specializing</div>
-              <div className="p-l">in AI development, SEO, and full-stack web solutions.</div>
-              <div className="p-l">Oversaw end-to-end project delivery, from strategy</div>
-              <div className="p-l">to deployment. Built intelligent web apps and automation</div>
-              <div className="p-l">tools using React, Node.js, Python, and OpenAI, and scaled</div>
-              <div className="p-l">organic traffic and ROI through advanced SEO tactics</div>
+              <div className="p-l">
+                Launched and lead a digital agency specializing
+              </div>
+              <div className="p-l">
+                in AI development, SEO, and full-stack web solutions.
+              </div>
+              <div className="p-l">
+                Oversaw end-to-end project delivery, from strategy
+              </div>
+              <div className="p-l">
+                to deployment. Built intelligent web apps and automation
+              </div>
+              <div className="p-l">
+                tools using React, Node.js, Python, and OpenAI, and scaled
+              </div>
+              <div className="p-l">
+                organic traffic and ROI through advanced SEO tactics
+              </div>
               <div className="p-l">AI-driven content strategies.</div>
             </AppearTitle>
           </div>

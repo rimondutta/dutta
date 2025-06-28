@@ -7,7 +7,8 @@ import CustomHead from '@src/components/dom/CustomHead';
 
 const seo = {
   title: 'Rimon- About',
-  description: 'Learn about my journey, values, and commitment to quality web and app solutions.',
+  description:
+    'Learn about my journey, values, and commitment to quality web and app solutions.',
   keywords: [
     'Rimon',
     'About Rimon Dutta',
