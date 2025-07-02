@@ -44,7 +44,7 @@ function About() {
     <div className={styles.imageContainer}>
       <Image
         priority
-        src="/rimon/front.webp"
+        src="/rimon/Rimon Dutta.webp"
         sizes="100%"
         fill
         alt="Rimon Dutta"
